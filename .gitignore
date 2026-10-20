@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv*/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Runtime records created by the chatbot
+data/*.jsonl
+!data/.gitkeep
+
+# Test and build artifacts
+.pytest_cache/
+tmp/
+
+# macOS
+.DS_Store
